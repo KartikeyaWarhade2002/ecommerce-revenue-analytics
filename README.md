@@ -1,110 +1,107 @@
 # 📊 E-Commerce Revenue Analytics
 
-A complete end-to-end Data Analytics project that analyzes over **99,000 e-commerce orders** to uncover revenue trends, customer behavior, product performance, and business insights.
+<div align="center">
 
-This project demonstrates a full analytics workflow using **Python, SQL, Excel, and Power BI**, following industry practices from data preparation to executive dashboard creation.
+### End-to-End Data Analytics Project using Python, SQL, Excel & Power BI
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
+![SQL](https://img.shields.io/badge/SQL-Business%20Analysis-orange)
+![Excel](https://img.shields.io/badge/Excel-Analytics-217346?logo=microsoft-excel)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)
+
+</div>
 
 ---
 
-# 🚀 Project Overview
+# 📌 Project Overview
 
-This project was built to simulate a real-world business analytics workflow.
+This project demonstrates a complete end-to-end Data Analytics workflow using the **Brazilian Olist E-Commerce Dataset**.
 
-The analysis focuses on answering questions such as:
+The objective was to transform raw transactional data into meaningful business insights by combining **Python, SQL, Excel and Power BI** into a single analytics pipeline.
 
-- Which products generate the highest revenue?
-- Which customer segments contribute the most sales?
+The project follows a real-world workflow:
+
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- SQLite Database Creation
+- SQL Business Analysis
+- Python Data Visualization
+- Excel Reporting
+- Interactive Power BI Dashboard
+
+The final solution enables business users to monitor sales performance, customer behaviour, product performance and operational KPIs.
+
+---
+
+# 🎯 Business Problem
+
+E-commerce companies collect large amounts of transactional data every day, but raw data alone cannot support business decisions.
+
+This project answers questions such as:
+
+- Which product categories generate the highest revenue?
+- Which customers contribute the most sales?
+- Which regions perform best?
 - How does revenue change over time?
-- Which states and cities perform best?
 - Which payment methods are most popular?
-- How do operational metrics affect deliveries?
+- How efficiently are orders delivered?
+
+---
+
+# 📂 Dataset
+
+**Dataset:** Brazilian Olist E-Commerce Dataset
+
+The dataset contains information about:
+
+- Customers
+- Orders
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
+
+Dataset Highlights:
+
+- 99,000+ Orders
+- 95,000+ Customers
+- Multiple Product Categories
+- Customer Locations
+- Delivery Information
+- Payment Records
 
 ---
 
 # 🛠 Tech Stack
 
-- Python
-- Pandas
-- SQLite
-- SQL
-- Plotly
-- Power BI
-- Microsoft Excel
-- VS Code
-- Git & GitHub
+| Category             | Technologies       |
+| -------------------- | ------------------ |
+| Programming          | Python             |
+| Data Processing      | Pandas, NumPy      |
+| Database             | SQLite             |
+| Query Language       | SQL                |
+| Visualization        | Plotly             |
+| Spreadsheet Analysis | Microsoft Excel    |
+| Dashboarding         | Microsoft Power BI |
+| Version Control      | Git & GitHub       |
 
 ---
 
-# 📁 Project Structure
+# 🔄 Project Workflow
 
-```
-ecommerce-revenue-analytics/
-
-│
-├── charts/
-│   ├── 01_category_revenue.png
-│   ├── 02_monthly_revenue.png
-│   ├── 03_top_customers.png
-│   ├── 04_payment_methods.png
-│   ├── 05_order_status.png
-│   └── 06_top_products.png
-│
-├── dashboard/
-│   ├── screenshots/
-│   └── app.py
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── ecommerce.db
-│
-├── docs/
-│   ├── business_insights.md
-│   └── KPI_DEFINITIONS.md
-│
-├── excel/
-│   └── analysis.xlsx
-│
-├── scripts/
-│   ├── prepare_data.py
-│   ├── prep_powerbi.py
-│   ├── prep_excel.py
-│   ├── charts.py
-│   └── database_schema.py
-│
-├── sql/
-│   └── analysis.py
-│
-├── README.md
-├── requirements.txt
-└── ecommerce-revenue-analytics.pbix
-```
-
----
-
-# 📈 Dataset
-
-The project uses the **Brazilian Olist E-Commerce Dataset**.
-
-Dataset includes:
-
-- 99K Orders
-- 95K Customers
-- Product Categories
-- Payments
-- Delivery Information
-- Customer Locations
-- Reviews
-
----
-
-# 🔄 Analytics Workflow
-
-```
-Raw Data
+```text
+Raw CSV Files
       │
       ▼
 Python Data Cleaning
+      │
+      ▼
+Feature Engineering
       │
       ▼
 SQLite Database
@@ -112,236 +109,474 @@ SQLite Database
       ▼
 SQL Business Analysis
       │
-      ▼
-Python Visualizations
-      │
-      ▼
-Excel Analysis
-      │
-      ▼
-Power BI Dashboard
+      ├──────────────┐
+      ▼              ▼
+ Plotly Charts    Excel Analysis
+      │              │
+      └──────┬───────┘
+             ▼
+      Power BI Dashboard
+             ▼
+      Business Insights
 ```
 
 ---
 
-# 📊 Dashboard Pages
+# 📈 Analytics Pipeline
 
-## Executive Overview
+The project follows an end-to-end analytics workflow commonly used in business intelligence projects.
 
-Provides high-level KPIs including:
+1. Clean raw e-commerce data using Python.
+2. Store processed data inside SQLite.
+3. Perform SQL-based business analysis.
+4. Generate automated Plotly visualizations.
+5. Perform Excel Pivot Table analysis.
+6. Build interactive Power BI dashboards.
+7. Deliver actionable business insights.
 
-- Total Revenue
+---
+
+# 📊 E-Commerce Revenue Analytics
+
+<div align="center">
+
+### End-to-End Data Analytics Project using Python, SQL, Excel & Power BI
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite)
+![SQL](https://img.shields.io/badge/SQL-Business%20Analysis-orange)
+![Excel](https://img.shields.io/badge/Excel-Analytics-217346?logo=microsoft-excel)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?logo=plotly)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)
+
+</div>
+
+---
+
+# 📌 Project Overview
+
+This project demonstrates a complete end-to-end Data Analytics workflow using the **Brazilian Olist E-Commerce Dataset**.
+
+The objective was to transform raw transactional data into meaningful business insights by combining **Python, SQL, Excel and Power BI** into a single analytics pipeline.
+
+The project follows a real-world workflow:
+
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- SQLite Database Creation
+- SQL Business Analysis
+- Python Data Visualization
+- Excel Reporting
+- Interactive Power BI Dashboard
+
+The final solution enables business users to monitor sales performance, customer behaviour, product performance and operational KPIs.
+
+---
+
+# 🎯 Business Problem
+
+E-commerce companies collect large amounts of transactional data every day, but raw data alone cannot support business decisions.
+
+This project answers questions such as:
+
+- Which product categories generate the highest revenue?
+- Which customers contribute the most sales?
+- Which regions perform best?
+- How does revenue change over time?
+- Which payment methods are most popular?
+- How efficiently are orders delivered?
+
+---
+
+# 📂 Dataset
+
+**Dataset:** Brazilian Olist E-Commerce Dataset
+
+The dataset contains information about:
+
+- Customers
+- Orders
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
+
+Dataset Highlights:
+
+- 99,000+ Orders
+- 95,000+ Customers
+- Multiple Product Categories
+- Customer Locations
+- Delivery Information
+- Payment Records
+
+---
+
+# 🛠 Tech Stack
+
+| Category             | Technologies       |
+| -------------------- | ------------------ |
+| Programming          | Python             |
+| Data Processing      | Pandas, NumPy      |
+| Database             | SQLite             |
+| Query Language       | SQL                |
+| Visualization        | Plotly             |
+| Spreadsheet Analysis | Microsoft Excel    |
+| Dashboarding         | Microsoft Power BI |
+| Version Control      | Git & GitHub       |
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Raw CSV Files
+      │
+      ▼
+Python Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+SQLite Database
+      │
+      ▼
+SQL Business Analysis
+      │
+      ├──────────────┐
+      ▼              ▼
+ Plotly Charts    Excel Analysis
+      │              │
+      └──────┬───────┘
+             ▼
+      Power BI Dashboard
+             ▼
+      Business Insights
+```
+
+---
+
+# 📈 Analytics Pipeline
+
+The project follows an end-to-end analytics workflow commonly used in business intelligence projects.
+
+1. Clean raw e-commerce data using Python.
+2. Store processed data inside SQLite.
+3. Perform SQL-based business analysis.
+4. Generate automated Plotly visualizations.
+5. Perform Excel Pivot Table analysis.
+6. Build interactive Power BI dashboards.
+7. Deliver actionable business insights.
+
+---
+
+# 📊 Interactive Power BI Dashboard
+
+The final stage of the project was the development of a multi-page interactive Power BI dashboard.
+
+The dashboard transforms raw transactional data into business-friendly reports, allowing stakeholders to explore sales, customers, products and operational performance through interactive visualizations and slicers.
+
+---
+
+# Dashboard Overview
+
+The report is divided into four analytical pages.
+
+---
+
+## 🏠 Executive Overview
+
+Provides a high-level summary of business performance.
+
+**Key Metrics**
+
 - Total Orders
-- Average Order Value
 - Total Customers
+- Total Revenue
+- Average Order Value
 
-Visuals include:
+**Highlights**
 
 - Revenue by State
 - Monthly Revenue Trend
 - Top Product Categories
+- Interactive Filters
+
+![Executive Dashboard](powerbi/screenshots/overview_dashboard.png)
 
 ---
 
-## Customer Analytics
+## 👥 Customer Analytics
 
-Analyzes customer purchasing behavior.
+Analyzes customer purchasing behaviour and revenue contribution.
 
-Includes:
+**Key Metrics**
 
+- Total Customers
+- Average Order Value
 - Repeat Customer Rate
+
+**Highlights**
+
 - Top Customers
 - Top Cities
 - Payment Method Distribution
+- Customer Revenue Analysis
+
+![Customer Analytics](powerbi/screenshots/customer_analytics.png)
 
 ---
 
-## Product Performance
+## 📦 Product Performance
 
-Provides product-level insights.
+Evaluates product sales and category performance.
 
-Includes:
+**Key Metrics**
+
+- Total Revenue
+- Products Sold
+- Average Product Price
+- Unique Products
+
+**Highlights**
 
 - Top Products
-- Top Categories
-- Revenue Distribution
-- Monthly Trend by Category
+- Revenue by Category
+- Revenue Treemap
+- Monthly Category Trends
+
+![Product Performance](powerbi/screenshots/product_performance.png)
 
 ---
 
-## Operations & Delivery
+## 🚚 Operations & Delivery
 
-Operational dashboard showing:
+Monitors delivery performance and operational efficiency.
+
+**Key Metrics**
+
+- Delivered Orders
+- Delivery Rate
+- Average Delivery Days
+- Average Freight Cost
+
+**Highlights**
 
 - Order Status
 - Delivery Performance
 - Freight Analysis
-- Average Delivery Time
+- Delivery Trend
+
+![Operations Dashboard](powerbi/screenshots/operations_delivery.png)
 
 ---
 
-# 📊 Excel Analysis
+# ✨ Dashboard Features
 
-Created using Microsoft Excel.
+The dashboard supports interactive business analysis through:
 
-Includes:
-
-- Pivot Tables
-- Pivot Charts
-- Revenue Analysis
-- Customer Analysis
-- Product Analysis
-
----
-
-# 🐍 Python Automation
-
-Python scripts automate:
-
-- Data Cleaning
-- Feature Engineering
-- Database Creation
-- Power BI Dataset Export
-- Excel Dataset Export
-- Plotly Chart Generation
+- Dynamic KPI Cards
+- Interactive Slicers
+- Cross-filtering
+- Drill-down Visuals
+- Multi-page Navigation
+- Responsive Business Dashboards
 
 ---
 
-# 🗄 SQL Analysis
+# 💡 Key Business Insights
 
-SQL was used to answer business questions such as:
+The analysis produced the following business insights:
 
-- Monthly Revenue
-- Top Categories
-- Customer Revenue
-- Payment Analysis
-- Order Status
-- Product Performance
+### 📌 1. Health & Beauty generated the highest overall revenue.
 
 ---
 
-# 📈 Key Business Insights
-
-- Health & Beauty generated the highest revenue.
-- Credit Cards accounted for the majority of transactions.
-- Revenue peaked during mid-year months.
-- A small group of customers contributed a significant share of sales.
-- Product category performance varied considerably across regions.
+### 📌 2. Revenue is concentrated within a relatively small number of product categories.
 
 ---
 
-# 📷 Dashboard Preview
-
-## Executive Dashboard
-
-<img width="1426" height="801" alt="Executive Overview" src="https://github.com/user-attachments/assets/bd30cadc-1a67-4d76-a480-b21b26e9e72d" />
-
+### 📌 3. Monthly sales demonstrate seasonal fluctuations, indicating changing customer demand throughout the year.
 
 ---
 
-## Customer Analytics
-
-<img width="1427" height="802" alt="Customer Analytics" src="https://github.com/user-attachments/assets/e2d1f6c7-7724-42d7-880d-fe78fecb03c4" />
-
+### 📌 4. A small group of customers contributes a significant share of total revenue.
 
 ---
 
-## Product Performance
-
-<img width="1424" height="802" alt="Product Performance" src="https://github.com/user-attachments/assets/0693679d-70a4-4ba1-98b6-ba675b9208c1" />
-
+### 📌 5. Credit Card is the most frequently used payment method.
 
 ---
 
-## Operations Dashboard
-
-<img width="1428" height="800" alt="Operations and Delivery Performance" src="https://github.com/user-attachments/assets/c9522a9e-af54-461c-8a04-5c8da9617af7" />
-
+### 📌 6. Sales are concentrated in a few major Brazilian states.
 
 ---
 
-# ▶️ How to Run
+### 📌 7. Delivery performance varies across regions, highlighting opportunities to improve logistics efficiency.
 
-Clone the repository
+---
+
+### 📌 8. The majority of orders are successfully delivered, indicating a strong fulfillment process.
+
+---
+
+# 🎯 Business Value
+
+This dashboard enables decision-makers to:
+
+- Monitor overall business performance
+- Track revenue trends
+- Identify top-performing products
+- Understand customer purchasing behaviour
+- Evaluate payment preferences
+- Analyze regional sales
+- Monitor delivery performance
+- Support data-driven business decisions
+
+# 🚀 Getting Started
+
+## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ecommerce-revenue-analytics.git
+git clone https://github.com/KartikeyaWarhade2002/ecommerce-revenue-analytics.git
 ```
 
-Install dependencies
+Move into the project directory:
+
+```bash
+cd ecommerce-revenue-analytics
+```
+
+---
+
+## Create a Virtual Environment
+
+### Windows
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment:
+
+```bash
+.venv\Scripts\activate
+```
+
+---
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Prepare the dataset
+---
+
+# ▶️ Running the Project
+
+Execute the scripts in the following order:
+
+### 1. Prepare the Dataset
 
 ```bash
 python scripts/prepare_data.py
 ```
 
-Run SQL analysis
+### 2. Execute SQL Analysis
 
 ```bash
 python sql/analysis.py
 ```
 
-Generate Plotly charts
+### 3. Generate Plotly Charts
 
 ```bash
 python scripts/charts.py
 ```
 
-Prepare Excel dataset
+### 4. Prepare Excel Dataset
 
 ```bash
 python scripts/prep_excel.py
 ```
 
-Prepare Power BI dataset
+### 5. Prepare Power BI Dataset
 
 ```bash
 python scripts/prep_powerbi.py
 ```
 
-Open the Power BI dashboard
+### 6. Launch the Streamlit Dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+### 7. Open the Power BI Report
+
+Open the following file using **Microsoft Power BI Desktop**.
 
 ```
-ecommerce-revenue-analytics.pbix
+powerbi/ecommerce-revenue-analytics.pbix
 ```
 
 ---
 
-# 🎯 Skills Demonstrated
+# 📌 Project Highlights
 
-✔ Data Cleaning
+✔ End-to-End Data Analytics Workflow
 
-✔ Data Wrangling
+✔ Python Data Cleaning & Feature Engineering
 
-✔ SQL Analysis
+✔ SQLite Database Integration
 
-✔ Feature Engineering
+✔ SQL Business Analysis
 
-✔ Data Visualization
+✔ Automated Plotly Visualizations
 
-✔ Dashboard Design
+✔ Microsoft Excel Pivot Analysis
 
-✔ Excel Analytics
+✔ Interactive Power BI Dashboard
 
-✔ Power BI
+✔ Business KPI Development
 
-✔ Python Automation
-
-✔ Business Intelligence
+✔ Data Storytelling & Visualization
 
 ---
 
-# 👤 Author
+# 📄 License
 
-**Kartikeya Warhade**
+This project is licensed under the **MIT License**.
 
-Aspiring Data Analyst
+---
 
-GitHub: https://github.com/YourUsername
+# 👨‍💻 Author
 
-LinkedIn: https://linkedin.com/in/YourProfile
+## Kartikeya Warhade
+
+Aspiring Data Analyst passionate about transforming raw business data into actionable insights using Python, SQL, Excel and Power BI.
+
+### Connect with Me
+
+**GitHub**
+
+https://github.com/KartikeyaWarhade2002
+
+**LinkedIn**
+
+https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+Thank you for visiting the repository.
+
+</div>

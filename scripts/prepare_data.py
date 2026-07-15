@@ -161,6 +161,14 @@ analytics = analytics.merge(
 print(f"After Payments             : {analytics.shape}")
 
 # =====================================================
+# Remove Orders Without Order Items
+# =====================================================
+
+analytics = analytics.dropna(subset=["product_id"])
+
+print(f"\nAfter Removing Empty Orders : {analytics.shape}")
+
+# =====================================================
 # Data Cleaning
 # =====================================================
 
@@ -226,3 +234,24 @@ analytics.to_sql(
 conn.close()
 
 print(f"\nSQLite database saved to:\n{DB_PATH}")
+
+# =====================================================
+# Data Validation
+# =====================================================
+
+print("\n" + "=" * 100)
+print("DATA VALIDATION")
+print("=" * 100)
+
+print(f"Rows                 : {len(analytics):,}")
+print(f"Columns              : {analytics.shape[1]}")
+
+print(f"\nUnique Orders        : {analytics['order_id'].nunique():,}")
+print(f"Unique Customers     : {analytics['customer_unique_id'].nunique():,}")
+print(f"Unique Products      : {analytics['product_id'].nunique():,}")
+
+print(f"\nDuplicate Rows       : {analytics.duplicated().sum()}")
+
+print("\nMissing Values")
+print("-" * 40)
+print(analytics.isna().sum().sort_values(ascending=False).head(15))
