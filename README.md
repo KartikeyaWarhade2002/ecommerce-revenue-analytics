@@ -79,16 +79,16 @@ Dataset Highlights:
 
 # 🛠 Tech Stack
 
-| Category             | Technologies       |
-| -------------------- | ------------------ |
-| Programming          | Python             |
-| Data Processing      | Pandas, NumPy      |
-| Database             | SQLite             |
-| Query Language       | SQL                |
-| Visualization        | Plotly             |
-| Spreadsheet Analysis | Microsoft Excel    |
-| Dashboarding         | Microsoft Power BI |
-| Version Control      | Git & GitHub       |
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Database | SQLite |
+| Query Language | SQL |
+| Visualization | Plotly |
+| Spreadsheet Analysis | Microsoft Excel |
+| Dashboarding | Microsoft Power BI |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -135,6 +135,109 @@ The project follows an end-to-end analytics workflow commonly used in business i
 7. Deliver actionable business insights.
 
 ---
+
+# 📈 Python Visualizations (Plotly)
+
+Python was used to automate business reporting by generating publication-quality visualizations directly from SQL query results using **Plotly**.
+
+These charts provide quick insights into sales performance, customer behavior and product performance before building the final Power BI dashboard.
+
+---
+
+## Revenue by Product Category
+
+Identifies the product categories contributing the highest revenue.
+
+![Revenue by Category](charts/01_category_revenue.png)
+
+---
+
+## Monthly Revenue Trend
+
+Visualizes monthly sales performance to identify seasonal trends and business growth patterns.
+
+![Monthly Revenue](charts/02_monthly_revenue.png)
+
+---
+
+## Top Customers by Revenue
+
+Highlights the customers generating the highest revenue, helping identify high-value customers.
+
+![Top Customers](charts/03_top_customers.png)
+
+---
+
+## Payment Method Distribution
+
+Shows customer payment preferences across different payment methods.
+
+![Payment Methods](charts/04_payment_methods.png)
+
+---
+
+## Order Status Distribution
+
+Provides an overview of order fulfillment status across all orders.
+
+![Order Status](charts/05_order_status.png)
+
+---
+
+## Top Products by Revenue
+
+Ranks products based on total revenue generated.
+
+![Top Products](charts/06_top_products.png)
+
+---
+
+# 📊 Microsoft Excel Analysis
+
+In addition to Python and SQL, Microsoft Excel was used to validate business metrics through **Pivot Tables** and **Pivot Charts**.
+
+This demonstrates the ability to perform business reporting using one of the most widely adopted tools in the analytics industry.
+
+---
+
+## Revenue by Product Category
+
+Pivot Tables and Pivot Charts were used to summarize revenue across product categories and identify top-performing categories.
+
+![Revenue by Category](excel/screenshots/revenue_by_category.png)
+
+---
+
+## Monthly Revenue Trend
+
+Monthly sales were analyzed using Excel Pivot Tables to understand revenue patterns over time.
+
+![Monthly Revenue](excel/screenshots/monthly_revenue.png)
+
+---
+
+### Excel Skills Demonstrated
+
+- Pivot Tables
+- Pivot Charts
+- Revenue Analysis
+- Trend Analysis
+- Business Reporting
+
+---
+
+### Why Multiple Tools?
+
+Instead of relying on a single platform, the same business questions were answered using multiple analytical tools.
+
+This approach demonstrates the ability to perform consistent analysis across:
+
+- Python
+- SQL
+- Microsoft Excel
+- Power BI
+
+while ensuring that the generated insights remain accurate and reproducible.
 
 # 📊 Interactive Power BI Dashboard
 
