@@ -19,7 +19,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_PATH = "D:/Data Analytics Projects/ecommerce-revenue-analytics/data/processed/analytics_orders.csv"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_PATH = BASE_DIR / "data" / "processed" / "analytics_orders.csv"
+
+df = pd.read_csv(DATA_PATH)
 
 # ----------------------------------------------------------------------------
 # Data loading
