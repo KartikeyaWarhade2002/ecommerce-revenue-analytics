@@ -16,6 +16,11 @@
 </div>
 
 ---
+## 🚀 Live Demo
+
+🌐 **Interactive Streamlit Dashboard:**  
+(https://ecommerce-revenue-analytics.streamlit.app/)
+---
 
 # 📌 Project Overview
 
