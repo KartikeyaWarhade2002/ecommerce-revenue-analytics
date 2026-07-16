@@ -235,49 +235,6 @@ st.caption(
 )
 
 # ----------------------------------------------------------------------------
-# Data Quality Callout
-# ----------------------------------------------------------------------------
-
-dq_count = int(orders_df["flag_delivered_missing_date"].sum())
-
-if dq_count > 0:
-
-    with st.expander(
-        f"⚠️ Data quality note: {dq_count} order(s) marked delivered with no delivery date on record",
-        expanded=False,
-    ):
-
-        st.write(
-            "These orders have order_status = delivered but "
-            "their order_delivered_customer_date was never "
-            "recorded in the source data."
-        )
-
-        st.markdown(
-            "- Included in revenue, order counts and Delivered % KPI\n"
-            "- Excluded from delivery_days calculations\n"
-            "- Flagged in flag_delivered_missing_date for transparency"
-        )
-
-        flag_cols = [
-            "order_id",
-            "order_status",
-            "order_purchase_timestamp",
-            "order_approved_at",
-            "order_delivered_carrier_date",
-            "order_delivered_customer_date",
-            "order_estimated_delivery_date",
-        ]
-
-        st.dataframe(
-            orders_df.loc[
-                orders_df["flag_delivered_missing_date"],
-                flag_cols,
-            ],
-            use_container_width=True,
-        )
-
-# ----------------------------------------------------------------------------
 # KPI Row
 # ----------------------------------------------------------------------------
 
@@ -321,19 +278,13 @@ k4.metric(
 k5.metric(
     "Avg Delivery Time",
     f"{avg_delivery_days:.1f} days",
-    help=(
-        "Calculated only from orders with a recorded delivery date. "
-        f"{dq_count} delivered order(s) with no delivery date are excluded."
-    ),
+    help="Calculated from orders with a recorded delivery date.",
 )
 
 k6.metric(
     "Delivered %",
     f"{delivered_pct:.1f}%",
-    help=(
-        "Based on order_status. "
-        f"Includes {dq_count} delivered order(s) missing delivery timestamps."
-    ),
+    help="Percentage of orders successfully delivered.",
 )
 
 st.markdown("---")
