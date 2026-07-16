@@ -17,9 +17,9 @@
 
 ---
 ## 🚀 Live Demo
-
-🌐 **Interactive Streamlit Dashboard:**  
+🌐*Interactive Streamlit Dashboard:* 
 (https://ecommerce-revenue-analytics.streamlit.app/)
+
 ---
 
 # 📌 Project Overview
