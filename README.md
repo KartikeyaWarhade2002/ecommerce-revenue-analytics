@@ -56,6 +56,8 @@ This project answers questions such as:
 
 **Dataset:** Brazilian Olist E-Commerce Dataset
 
+The Brazilian Olist E-Commerce Dataset is a real-world public dataset containing information on e-commerce orders placed through the Olist marketplace in Brazil between 2016 and 2018. The dataset combines transactional, customer, product, payment, review and geolocation information, making it suitable for end-to-end sales and customer analytics.
+
 The dataset contains information about:
 
 - Customers
@@ -63,7 +65,7 @@ The dataset contains information about:
 - Products
 - Sellers
 - Payments
-- Reviews
+- Customer Reviews
 - Geolocation
 
 Dataset Highlights:
